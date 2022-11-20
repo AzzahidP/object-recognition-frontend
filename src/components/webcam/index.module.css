@@ -1,0 +1,35 @@
+.main{
+    @apply
+    flex flex-col justify-center align-middle;
+}
+
+.webcam_container{
+    @apply
+    flex flex-row justify-center align-middle rounded-2xl;
+}
+
+.button_container{
+    @apply
+    p-1 flex justify-center;
+}
+
+.camera_button{
+    @apply
+    bg-slate-900 bg-gradient-to-r from-sky-900 to-black
+    text-white text-lg w-3/4 h-11 my-5
+    rounded-lg;
+}
+
+.result_container{
+    @apply
+    my-0 ml-5 p-0 h-full w-auto
+    flex justify-center align-middle;
+}
+
+img{
+    height:50%;
+    width:auto;
+    padding:0 !important;
+    margin:0 !important;
+    align:middle;
+}

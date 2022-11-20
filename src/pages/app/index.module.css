@@ -1,0 +1,22 @@
+.main{
+  @apply
+  w-screen h-screen flex-row
+  bg-fixed
+  bg-blend-normal
+  bg-[url('../../../public/images/bg.png')]
+  bg-gray-800
+  justify-center align-middle
+  p-5 font-sans;
+}
+
+.section_1{
+  @apply
+  flex flex-row justify-center;
+}
+
+.section_1>.title{
+  @apply
+  text-center text-3xl pb-5 pt-3 
+  font-sans font-semibold text-white;
+
+}

@@ -1,0 +1,13 @@
+.main{
+    @apply
+    w-screen h-screen bg-fixed
+    bg-blend-normal
+    bg-[url('../../public/images/bg.png')]
+    bg-gray-800
+    flex px-5;
+}
+
+.section_2{
+    @apply
+    w-screen h-screen;
+}

@@ -1,0 +1,35 @@
+.main{
+    @apply
+    w-screen h-screen bg-fixed
+    bg-blend-normal
+    bg-[url('../../../public/images/bg.png')]
+    bg-gray-800
+}
+
+.section_1{
+    @apply
+    h-screen w-screen
+    flex flex-col
+    justify-center align-middle;
+}
+
+.section_1>.title{
+    @apply
+    w-full p-3 text-center
+    flex align-middle justify-center
+    font-mono text-7xl text-white font-bold;
+}
+
+.section_1>.button{
+    @apply
+    w-full bottom-10 p-2
+    flex align-middle justify-center
+    font-mono text-2xl text-gray-100 font-light;
+}
+
+.section_1>.button>h3{
+    @apply
+    w-1/2 mx-2 px-1 text-center
+    flex flex-row justify-center align-middle
+    bottom-1;
+}
